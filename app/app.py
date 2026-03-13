@@ -1,6 +1,8 @@
 import streamlit as st
+import logging
 
-import streamlit as st
+logging.basicConfig(level=logging.INFO)
+logging.info("Application démarrée")
 
 password = st.text_input("Mot de passe", type="password")
 
