@@ -1,5 +1,13 @@
 import streamlit as st
 
+import streamlit as st
+
+password = st.text_input("Mot de passe", type="password")
+
+if password != "tp3_mbg":
+    st.warning("Mot de passe incorrect")
+    st.stop()
+
 st.set_page_config(page_title="TP1 ML Multi-Pages", page_icon="🏠", layout="wide")
 
 st.title("🏠 Application ML Multi-Pages")
