@@ -35,4 +35,5 @@ Avec
 - Un lien Stremlit : https://app-tp3-cakmwpwbd2u5ve6q63dypn.streamlit.app/Training
 - Une sécurisation HTPPS : OUI
 - Une Utilisation de Github
+- Un jeu de données à intégrer
 - Un fichier log
